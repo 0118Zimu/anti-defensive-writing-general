@@ -10,12 +10,16 @@ The installer defaults to the user-level Codex skills folder at $HOME/.agents/sk
 2. Open a terminal in the extracted package folder.
 3. Run:
 
-    chmod +x install.sh
-    ./install.sh
+```sh
+chmod +x install.sh
+./install.sh
+```
 
 To choose another skills directory, pass it to the installer:
 
-    ./install.sh --dest "$HOME/.codex/skills"
+```sh
+./install.sh --dest "$HOME/.codex/skills"
+```
 
 The backup is kept next to the installed skill with a UTC timestamp in its name. Review or remove that backup yourself when you no longer need it.
 
